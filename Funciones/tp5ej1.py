@@ -11,9 +11,9 @@ def par_impar(numero):
     decimal = (decimal / 2)
     
     if numero < decimal:
-        return"impar"
+        return False
     else:
-        return"par"
+        return True
 
 def prueba():
     """Toda la interacción con el usuario va acá"""
